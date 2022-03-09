@@ -109,17 +109,14 @@ h2, h3, p, li{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: bisque; */
 }
 
 .home-img {    
     width: fit-content;
-    /* background-color: coral;  */
 }
 
 .home-text {
     width: 50%;  
-    /* background-color: burlywood;      */
 }
 
 .home-profile {
@@ -171,7 +168,7 @@ h2, h3, p, li{
 }
 /* fim home */
 
-/* personal */
+/* section personal */
 .personal, .professional{
     width: 100%;
     height: 100vh;
@@ -179,7 +176,6 @@ h2, h3, p, li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: aquamarine; */
 }
 
 .personal-hobbies {
@@ -189,16 +185,7 @@ h2, h3, p, li{
 }
 /* fim personal */
 
-/* professional */
-/* .professional {
-    width: 100%;
-    height: 100vh;
-    display: flex;    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
+/* section professional */
 .professional-item {
     list-style: disc;    
 }
