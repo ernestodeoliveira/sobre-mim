@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #ffffff;
+		color: #000000;
+	}
+
+    a {
+        color: #000000;
+    }
+
+    img {
+        border-color: #000000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #333;
+		color: #ffffff;
+	}
+
+    a {
+        color: #ffffff;
+    }
+
+    img {
+        border-color: #ffffff;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+h2, h3, p, li{
+    margin-bottom: 30px;     
+}
+
+.text-size {
+    font-size: 2.5vmin;
+}
+
+/* header da pagina */
+.header-top {
+    width: 100%;    
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    margin: 0 15px;    
+    transition: .5s;
+}
+
+.header-nav li:hover {
+    transform: scale(1.2);
+}
+
+.header-nav a {
+    font-weight: 700;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.header-nav a:hover {
+    color: #ed145d;
+}
+
+.scroll-active {
+    background-color: rgba(128, 128, 128, 0.200);
+}
+/* fim header da pagina */
+
+/* section home */
+.home {
+    width: 90%;
+    height: 100vh;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+}
+
+.home-img {    
+    width: fit-content;
+    /* background-color: coral;  */
+}
+
+.home-text {
+    width: 50%;  
+    /* background-color: burlywood;      */
+}
+
+.home-profile {
+    border-radius: 50%;
+    width: 45vmin;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.home-name {
+    font-size: 6.8vmin;
+    color: #ed145d;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 4.1vmin;
+    font-weight: 300;
+}
+
+.home-p {
+    font-size: 2vmin;
+}
+
+.fa-brands {
+    font-size: 2.3vmin;
+    margin-right: 30px;    
+    transition: .5s;
+}
+
+.fa-brands:hover {
+    transform: scale(1.4);
+}
+
+.fa-github {
+    color: #808080;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-instagram {
+    color: #e95950;
+}
+
+.fa-solid {
+    margin-right: 10px;     
+}
+/* fim home */
+
+/* personal */
+.personal, .professional{
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.personal-hobbies {
+    font-size: 3.5vmin;
+    font-weight: 300;
+    margin-top: 30px; 
+}
+/* fim personal */
+
+/* professional */
+/* .professional {
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.professional-item {
+    list-style: disc;    
+}
+/* fim professional */
